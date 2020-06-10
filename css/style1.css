@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(99, 7, 50);
+    height: 100px;
+    border-radius: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    padding-top: 15px;
+}
+h1{
+    color: cornsilk;
+    text-align: center;
+    font-size: 50px;
+}
+nav li{
+    display: inline;
+
+}
+nav a{
+    text-decoration: none;
+    background-color: rgba(243, 97, 92, 0.5);
+    padding: 7px;
+    margin: 5px;
+    border-radius: 5px;
+   color: cornsilk;
+   width: 20%;
+    
+}
+.main{
+   
+    color: blanchedalmond;
+    width: 66%;
+    float: left;
+    height: 600px;
+    padding-top: 25px;
+    border-radius: 15px;
+    margin:2%;
+}
+nav{
+   margin-left:  10px;
+}
+aside{
+    width: 28%;
+    background-color: rgb(203, 255, 121);
+    float: left;
+    height: 600px;
+    padding-top: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+}
+.limpiar{
+    float: none;
+    clear: both;
+}
+footer{
+    background-color: rgb(236, 137, 113);
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.cursos{
+    background-color: black;
+    width: 40%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    height: 30%;
+    border-radius: 15px;
+}
+h2{
+    padding-left: 50px;
+    color: black;
+    font-size: 36pt;
+}
+#htmlB{
+    background-color: rgb(221, 0, 37);
+}
+#intro{
+    background-color: rgb(255, 81, 0);
+}
+#elementos{
+    background-color: rgb(255, 196, 0);
+}
+#est1{
+    background-color: rgb(3, 129, 87);
+}
+.Iniciar{
+    text-decoration: none;
+    color: darkgray;
+    background-color: rgba(44, 40, 32, 0.705);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    display: block;
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 2%;
+   
+}
+p{
+    padding-left: 15px;
+}
+aside p{
+    margin-top: 10px;
+    padding: 15px;
+
+}
+cite{
+    margin-left: 70%;
+}

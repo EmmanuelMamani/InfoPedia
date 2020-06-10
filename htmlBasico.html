@@ -3,35 +3,31 @@
 <head>
 	<title>InfoPedia</title>
 	<link rel="icon" type="image/png" href="imagenes/favicon.png">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<meta charset="utf-8">
 </head>
 <body>
 	<header>
 		<h1>InfoPedia</h1>
 		<div>
-			<img src="imagenes/logo.png"> 
 		<nav>
 			<ul>
 				<li><a href="index.html">Inicio</a></li>
-				<li>Cursos
-					<ul>
-						<li><a href="aprendeHTML.html">Html basico</a></li>
-						<li>Introduccion a la programacion</li>
-						<li>Elementos de programacion</li>
-						<li>Css basico</li>
-						<li>JavaScrip basico</li>
-					</ul>
-				</li>
+				<li><a href="Cursos.html">Cursos</a></li>
 				<li><a href="AcercaDe.html">Acerca del sitio</a></li>
 				<li><a href="Contactos.html">Contactos</a></li>
 			</ul>
 		</nav>
+		<div class="limpiar">
+				
+			</div>
 	</header>
 	<section class="wrapper">
 		<section class="main">
-			<h2>Html Basico</h2>
-			<p>De manera aclaratoria esta pagina no enseñara de manera profunda HTMP la funcion principal es proporcionar conceptos basicos y servir como apuntes y guia de consulta,espero les sea util.</p>
-			  <ul>
+			<article id="basico">
+			 <h2>Html Basico</h2>
+			 <p>De manera aclaratoria esta pagina no enseñara de manera profunda HTMP la funcion principal es proporcionar conceptos basicos y servir como apuntes y guia de consulta,espero les sea util.</p>
+			  <ul class="l">
 				<li>¿Que es HTML?</li>
 				<li>Etiquetas fundamentales</li>
 				<li>Etiquetas para hacer texto</li>
@@ -43,14 +39,15 @@
 				<li>Los meta datos</li>
 				<li>Teoria fundamental sobre las paginas web</li>
 			   </ul>
-			<article>
-				<h2>¿Que es HTML?</h2>
+			</article>
+			<article id="queEs">
+				<h3>¿Que es HTML?</h3>
 				<p>HTML significa Lenguaje de marcas de hipertexto, sirve para el desarrollo de paginas web,no es un lenguaje de programacion, no es necesario tener un editor de texto para realizar archivos HTML sin embargo es recomendable contar con alguno ya que fcilita la manera de trabajo en esta pagina se unilizara Sublime Text como editor de texto,no es dificil aprender solo se requiere un poco de practica y voluntad.</p>
 			</article>
-			<article>
-				<h2>Etiquetas fundamentales</h2>
+			<article id="fun">
+				<h3>Etiquetas fundamentales</h3>
 				<p>Todo documento html costa de tres etiquetas indispensables sin las cuales no se podria hacer una pagina de manera adecuada estas etiquetas son:</p>
-				     <ul>
+				     <ul class="l">
 				     	<li>&lt html &gt</li>
 				     	<li>&lt head &gt</li>
 				     	<li>&lt body &gt</li>
@@ -59,10 +56,10 @@
 				     <p><b>Head</b> esta etiqueta contiene informacion que el cliente no ve pero es importante para el navegador</p>
 				     <p><b>Body</b> en esta etiqueta se colocara todo el contenido que queramos que tenga nuestra pagina</p>
 			</article>
-			<article>
-				<h2>Etiquetas para hacer texto</h2>
+			<article id="texto">
+				<h3>Etiquetas para hacer texto</h3>
 				<p>Existen varias etiquetas para hacer texto depende a las necesidades que tengamos,entre ellas tenemos: </p>
-				<ul>
+				<ul class="l">
 					<li>&lt b &gt</li>
 					<li>&lt strong &gt</li>
 					<li>&lt i &gt</li>
@@ -75,32 +72,32 @@
 				<p><b>&lt cite &gt</b> se utiliza para escribir el autor de una cita o de algun articulo</p>
 
 			</article>
-			<article>
-				<h2>Como insertar una imagen y un video</h2>
+			<article id="imagen">
+				<h3>Como insertar una imagen y un video</h3>
 				<p>Al momento de querer insertar imagenes o videos debes tener mucho cuidado con los derechos de autor ya que no se quiere tener problemas legales por lo tanto es recomendable hacer tus propios archivos</p>
 				<p><b>&lt img &gt</b> en esta etiqueta se añade la ubicacion de la imagen puede ser una ubicacion local como una ubicacion de internet , tambien esta etiqueta cuenta con distintos atributos como se muestra en la imagen</p>
 				<p><b>&lt video &gt</b> se debe añadir la ubicacion del video como en la etiqueta de img</p>
 			</article>
-			<article>
-				<h2>Como añadir un enlace</h2>
+			<article id="enlace">
+				<h3>Como añadir un enlace</h3>
 				<p>Para añadir un enlace utilizamos la etiqueta &lt a &gt pero esta etiqueta tiene parametros que deben ser explicamos para ello adjuntamos una imagen</p>
 			</article>
-			<article>
-				<h2>Como hacer una lista</h2>
+			<article id="lista">
+				<h3>Como hacer una lista</h3>
 				<p>Las listas son recursos necesaios en las paginas nos sirven para hacer menus, indices, etc. Existen dos tipos de listas:</p>
-				<ul>
+				<ul class="l">
 					<li>&lt ol &gt lista ordenada</li>
 					<li>&lt ul &gt lista no ordenada</li>
 				</ul>
 				<p>Estas etiquetas nos sirven para crear listas pero requerimos de otra etiqueta para añadir elementos a las listas esa etiqueta es &lt li &gt</p>
 			</article>
-			<article>
-				<h2>Como hacer tablas</h2>
+			<article id="tabla">
+				<h3>Como hacer tablas</h3>
 				<p>las tablas tienen como proposito la creacion de columnas de texto que cada uno lo puede usar a su conveniencia, nos puede servir para hacer cuadros comparativos, distribuciones, etc. Para hacer una lista primero debemos crear su estructura para ello usaremos la etiqueta &lt table &gt dentro de ella podremos añadir filas con la etiqueta &lt tr &gt y dentro de esa etiqueta podemos añadir columnas con la etiqueta &lt td &gt esto puede ser un poco xonfuso por lo tanto se dejara una imajen que demuestre su funcionamiento y otra de como se ve implementado en una pagina</p>
 
 			</article>
-			<article>
-				<h2>Estructura de la pagina</h2>
+			<article id="estructura">
+				<h3>Estructura de la pagina</h3>
 				<p>La estructura de pagina permite una mayor comprension acerca de la pagina para el navegador y para aquella persona que tenga que editar la pagina posteriormente de ser necesario, esta estructura se enfoc en la etiqueta &lt body &gt y se da de la siguiente manera:</p>
 				<img src="imagenes/estructura.png" width="300">
 				<p><b>&lt header &gt</b> esta etiqueta nos servira de contenedor para el encabezado de la pagina contendra el titulo,logo o imagen relacionada(opcional),un menu o indice del contenido</p>
@@ -112,15 +109,27 @@
 				<p><b>&lt aside &gt</b> aqui van los articulos o contenido secundario, tambien puede ir publicidad</p>
 				<p><b>&lt footer &gt</b> este es el pie de pagina por lo general aqui va enlaces de contacto como ser numero telefonico o perfiles de redes sociales y tambien podria ir derechos de autor u otra informacion legal</p>
 			</article>
-			<article>
-				<h2>Metadatos</h2>
+			<article id="meta">
+				<h3>Metadatos</h3>
 				<p>los metadatos es informacion importante para el navegador ayuda a que encuentre la pagina o que sugiera nuestra pagina dependiendo a nuestro contenido se dara a conocer dos metadatos los cuales son:</p>
 				<p><b>&lt meta name="description" content="......" &gt</b> esto nos permite añadir una pequeña descripcion de lo que trata nuestra pagina se debe colocar la descripcion en la parte punteada</p>
 				<p><b>&lt meta name="keywords" content="......" &gt</b> esto nos permite añadir palabras clave para que nos sugiera el buscador se deben agregar las palabras en la parte punteada y separarlas por ","</p>
 			</article>
 		</section>
+		<aside>
+			<p>hola</p>
+		</aside>
 
 	</section>
+	<div class="limpiar">
+				
+			</div>
+	<footer>
+		<p>Creado por: Emmanuel Rene Mamani Orellana</p>
+		<p>Telefono: 79793177</p>
+		<p>Infopedia, ayudando a los estudiantes</p>
+		<p>2020</p>
+	</footer>		
 
 </body>
 </html>
